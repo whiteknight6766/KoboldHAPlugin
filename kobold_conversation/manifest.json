@@ -1,0 +1,8 @@
+{
+    "domain": "kobold_conversation",
+    "name": "Kobold Conversation",
+    "documentation": "https://github.com/whiteknight6766/KoboldHAPlugin",
+    "iot_class": "assumed_state",
+    "version": "1.0",
+    "config_flow": "true"
+}
