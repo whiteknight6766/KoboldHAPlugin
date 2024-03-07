@@ -30,8 +30,8 @@ From the main dashboard:<br><p>
   1. Click Settings<br><p>
   2. Click Voice Assistants<br><p>
   3. Click Add Assistant<br><p>
-      3a. Name: Again a human friendly name, your choice. <br><p>
-      3b. Conversation agent: You should see the human friendly name you entered during initialization. Chose that. <br><P>
+      a. Name: Again a human friendly name, your choice. <br><p>
+      b. Conversation agent: You should see the human friendly name you entered during initialization. Chose that. <br><P>
       *** all other options are up to you. TTS and STT are not part of this scope. This is just a conversation agent. Wyoming protocol and "google en com" works well enough for me. See these guys: https://github.com/rhasspy/wyoming-faster-whisper<br><P>
       I do suggest setting up a unique wake word. I am useing "ok nabu" for device control and a second assistant all together with ok jarvis for the kobold conversation agent.
   Repeat as many time as desired for different Kobold agents. one anonymous, one with your API Key, one with your significant others api key, you do you. <br><P>
@@ -54,4 +54,4 @@ If you care to see whats happening, I intentionally left my debugging events fir
     4. In the "listen to evenets" enter "kobold_event" <br><p>
       These events are the communication to and from the horde API. You can see the prompt, the models, temperature settings ect. <br><p>
       Yes its very chatty, particularly after the generation request.<br><p>
-        the API responds with an "expected time frame." Kobold Conversation plugin uses this time to hang around and wait. Yes there is a nasty gram in the *.log file, something about a "blocking wait, please contact the author." Kobold Conversation plugin will recheck the Horde's API every half interval. the API does give an updated generation time estimate if the generation isn't complete. and that loop continues until one of two things happens. The horde sends a generated response, OR 20 seconds has elapsed. Home Assistant has a maximum time limit before it gives up. To which I will re-pursade you to get a horde API key. the Key is free, and gets your generation request ahead of the anonymous ones. 
+        The API responds with an "expected time frame." Kobold Conversation plugin uses this time to hang around and wait. Yes there is a nasty gram in the *.log file, something about a "blocking wait, please contact the author." Kobold Conversation plugin will recheck the Horde's API every half interval. the API does give an updated generation time estimate if the generation isn't complete. and that loop continues until one of two things happens. The horde sends a generated response, OR 20 seconds has elapsed. Home Assistant has a maximum time limit before it gives up. To which I will re-pursade you to get a horde API key. the Key is free, and gets your generation request ahead of the anonymous ones. 
