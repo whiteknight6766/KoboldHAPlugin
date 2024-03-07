@@ -25,7 +25,7 @@ This is the code repo as submitted for the Home Assistant voice code challenge. 
       Third box is the base url, this should be the default as entered. <br>
       However, the local version of Koboldcpp does has its own API. So you could point that at your local machine for full offline mode if that is your particular kink. Head on over to https://github.com/LostRuins/koboldcpp and check them out.<br>
 
-#Setup your assistant  
+# Initialize your assistant  
 From the main dashboard:<br><p>
   Click Settings<br><p>
   Click Voice Assistants<br><p>
@@ -36,12 +36,12 @@ From the main dashboard:<br><p>
       I do suggest setting up a unique wake word. I am useing "ok nabu" for device control and a second assistant all together with ok jarvis for the kobold conversation agent.
   Repeat as many time as desired for different Kobold agents. one anonymous, one with your API Key, one with your significant others api key, you do you. <br>
 
-Use the Conversation agent from the dashboard:
-Click the conversation icon in the upper right corner. 
-A new box pops up, Under the word "assist" there is a drop down menu. 
-  Make that read your second human friendly name that you assigned to the assistant. 
+# Use the Conversation agent from the dashboard:
+Click the conversation icon in the upper right corner. <br><p>
+A new box pops up, Under the word "assist" there is a drop down menu. <br>
+  Make that read your second human friendly name that you assigned to the assistant. <br><p>
     
-Uninteresting conjecture on the personal reflection of my attempts to code this: (I.E. Troubleshooting tips)   
+# Uninteresting conjecture on the personal reflection of my attempts to code this: (I.E. Troubleshooting tips)   
 During my testing the anonymous key gave me the following response. 
     "Due to heavy demand, for requests over 463 tokens, the client needs to already have the required kudos. This request requires 78.57 kudos to fulfil."
     I highly recommend getting a free API key. 
