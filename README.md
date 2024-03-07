@@ -26,7 +26,7 @@ This is the code repo as submitted for the Home Assistant voice code challenge. 
       However, the local version of Koboldcpp does has its own API. So you could point that at your local machine for full offline mode if that is your particular kink. Head on over to https://github.com/LostRuins/koboldcpp and check them out.<br>
 
 # Initialize your assistant  
-From the main dashboard:<br><p>
+1. From the main dashboard:<br><p>
   Click Settings<br><p>
   Click Voice Assistants<br><p>
   Click Add Assistant<br><p>
