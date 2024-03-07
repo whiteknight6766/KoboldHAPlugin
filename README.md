@@ -1,7 +1,7 @@
 # KoboldHAPlugin
 This is the code repo as submitted for the Home Assistant voice code challenge. Because I need documention for the challenge. 
 
-Prerequisites: 
+Prerequisites: <br>
     A Kobold Horde API Key. Freely available at https://horde.koboldai.net/register
     A Python3 enviroment
     The pip packages requests and http3 
