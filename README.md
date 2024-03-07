@@ -2,9 +2,9 @@
 This is the code repo as submitted for the Home Assistant voice code challenge. Because I need documention for the challenge. 
 
 # Prerequisites:
-A Kobold Horde API Key. Freely available at https://horde.koboldai.net/register<br>
-    A Python3 enviroment<br>
-    The pip packages requests and http3 <br>
+1. A Kobold Horde API Key. Freely available at https://horde.koboldai.net/register<br>
+2. A Python3 enviroment<br>
+3. The pip packages requests and http3 <br>
         I had trouble installing http3 with pip version 20 but it does install with 23.3.2<br>
         My notes say "apt update && apt upgrade followed by a reboot." <br>
         Alot of my issues may have been caused by spinning up a fresh ubuntu server 20.4. However, I am leaving these bread crumbs in case the user is also not updating their OS enviroment. <br>
