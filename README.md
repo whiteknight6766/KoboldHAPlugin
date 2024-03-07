@@ -1,5 +1,5 @@
 # KoboldHAPlugin
-This is the code repo as submitted for the Home Assistant voice code challenge. Because I need documention for the challenge. 
+This is the code repo as submitted for the Home Assistant voice code challenge. Because I need documention for the challenge. This custom integration is intended to bring KoboldAI Large Language Models to the Home Assistant. Currently the integration is akin to a chat bot for your house. Ever wanted to argue with your house over whether or not to turn on the light? You can now attempt to have a philosophical debate about whether to turn on the kitchen light. This plug in exists because everyone is dieing for yet another argument in thier living room. Enjoy. 
 
 # Prerequisites:
 1. A Kobold Horde API Key. Freely available at https://horde.koboldai.net/register<br>
