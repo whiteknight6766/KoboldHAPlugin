@@ -15,14 +15,14 @@ This is the code repo as submitted for the Home Assistant voice code challenge. 
         git pull https://github.com/whiteknight6766/KoboldHAPlugin
 
 2. Reboot HomeAssistant. 
-3. From the main dashboard:
-  Click settings, 
-  Click devices and services,
-  Add integration, "Kobold conversation"
-      The first box is for a human friendly name
-      The second box is your API key -go get one its free- 
-          The default is the horde Anonymous user, complete with end of the line privlidges. That key is 0000000000
-      Third box is the base url, this should be the default as entered. However, the local version of Koboldcpp does has its own API. So you could point that at your local machine for full offline mode if that is your particular kink. head on over to https://github.com/LostRuins/koboldcpp and check them out.
+3. From the main dashboard:<br><p>
+  Click settings, <br>
+  Click devices and services,<br>
+  Add integration, "Kobold conversation"<br>
+      The first box is for a human friendly name<br>
+      The second box is your API key -go get one its free- <br>
+          The default is the horde Anonymous user, complete with end of the line privlidges. That key is 0000000000<br>
+      Third box is the base url, this should be the default as entered. However, the local version of Koboldcpp does has its own API. So you could point that at your local machine for full offline mode if that is your particular kink. head on over to https://github.com/LostRuins/koboldcpp and check them out.<br>
 
 Setup your assistant - From the main dashboard:
   Click Settings
