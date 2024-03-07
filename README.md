@@ -42,15 +42,15 @@ A new box pops up, Under the word "assist" there is a drop down menu. <br>
   Make that read your second human friendly name that you assigned to the assistant. <br><p>
     
 # Uninteresting conjecture on the personal reflection of my attempts to code this: (I.E. Troubleshooting tips)   
-During my testing the anonymous key gave me the following response. 
-    "Due to heavy demand, for requests over 463 tokens, the client needs to already have the required kudos. This request requires 78.57 kudos to fulfil."
-    I highly recommend getting a free API key. 
+During my testing the anonymous key gave me the following response. <br><p>
+    "Due to heavy demand, for requests over 463 tokens, the client needs to already have the required kudos. This request requires 78.57 kudos to fulfil."<br><p>
+    I highly recommend getting a free API key. <br><p>
 
-If you care to see whats happening, I intentionally left my debugging events firing in the code. 
-    Open a seperate browser
-    Goto Developer tools from your home assistant
-    Select "events tab"
-    In the "listen to evenets" enter "kobold_event" 
-      These events are the communication to and from the horde API. You can see the prompt, the models, temperature settings ect. 
-      Yes its very chatty, particularly after the generation request.
+If you care to see whats happening, I intentionally left my debugging events firing in the code. <br><p>
+    1. Open a seperate browser<br><p>
+    2. Goto Developer tools from your home assistant<br><p>
+    3. Select "events tab"<br><p>
+    4. In the "listen to evenets" enter "kobold_event" <br><p>
+      These events are the communication to and from the horde API. You can see the prompt, the models, temperature settings ect. <br><p>
+      Yes its very chatty, particularly after the generation request.<br><p>
         the API responds with an "expected time frame." Kobold Conversation plugin uses this time to hang around and wait. Yes there is a nasty gram in the *.log file, something about a "blocking wait, please contact the author." Kobold Conversation plugin will recheck the Horde's API every half interval. the API does give an updated generation time estimate if the generation isn't complete. and that loop continues until one of two things happens. The horde sends a generated response, OR 20 seconds has elapsed. Home Assistant has a maximum time limit before it gives up. To which I will re-pursade you to get a horde API key. the Key is free, and gets your generation request ahead of the anonymous ones. 
