@@ -29,12 +29,12 @@ This is the code repo as submitted for the Home Assistant voice code challenge. 
 From the main dashboard:<br><p>
   Click Settings<br><p>
   Click Voice Assistants<br><p>
-  Click Add Assistant<br>
-      Name: Again a human friendly name, your choice. <br>
-      Conversation agent: You should see the human friendly name you entered during initialization. Chose that. <br>
-      *** all other options are up to you. TTS and STT are not part of this scope. This is just a conversation agent. Wyoming protocol and "google en com" works well enough for me. See these guys: https://github.com/rhasspy/wyoming-faster-whisper<br>
+  Click Add Assistant<br><p>
+      Name: Again a human friendly name, your choice. <br><p>
+      Conversation agent: You should see the human friendly name you entered during initialization. Chose that. <br><P>
+      *** all other options are up to you. TTS and STT are not part of this scope. This is just a conversation agent. Wyoming protocol and "google en com" works well enough for me. See these guys: https://github.com/rhasspy/wyoming-faster-whisper<br><P>
       I do suggest setting up a unique wake word. I am useing "ok nabu" for device control and a second assistant all together with ok jarvis for the kobold conversation agent.
-  Repeat as many time as desired for different Kobold agents. one anonymous, one with your API Key, one with your significant others api key, you do you. <br>
+  Repeat as many time as desired for different Kobold agents. one anonymous, one with your API Key, one with your significant others api key, you do you. <br><P>
 
 # Use the Conversation agent from the dashboard:
 Click the conversation icon in the upper right corner. <br><p>
