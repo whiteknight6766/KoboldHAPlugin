@@ -14,7 +14,7 @@ This is the code repo as submitted for the Home Assistant voice code challenge. 
 
         git pull https://github.com/whiteknight6766/KoboldHAPlugin
 
-2. Reboot HomeAssistant. 
+2. Reboot HomeAssistant. <br><p>
 3. From the main dashboard:<br><p>
   Click settings, <br><p>
   Click devices and services,<br><p>
@@ -25,15 +25,16 @@ This is the code repo as submitted for the Home Assistant voice code challenge. 
       Third box is the base url, this should be the default as entered. <br>
       However, the local version of Koboldcpp does has its own API. So you could point that at your local machine for full offline mode if that is your particular kink. Head on over to https://github.com/LostRuins/koboldcpp and check them out.<br>
 
-Setup your assistant - From the main dashboard:
-  Click Settings
-  Click Voice Assistants
-  Click Add Assistant
-      Name: Again a human friendly name, your choice. 
-      Conversation agent: You should see the human friendly name you entered during initialization. Chose that. 
-      *** all other options are up to you. TTS and STT are not part of this scope. This is just a conversation agent. Wyoming protocol and "google en com" works well enough for me. See these guys: https://github.com/rhasspy/wyoming-faster-whisper
+#Setup your assistant  
+From the main dashboard:<br><p>
+  Click Settings<br><p>
+  Click Voice Assistants<br><p>
+  Click Add Assistant<br>
+      Name: Again a human friendly name, your choice. <br>
+      Conversation agent: You should see the human friendly name you entered during initialization. Chose that. <br>
+      *** all other options are up to you. TTS and STT are not part of this scope. This is just a conversation agent. Wyoming protocol and "google en com" works well enough for me. See these guys: https://github.com/rhasspy/wyoming-faster-whisper<br>
       I do suggest setting up a unique wake word. I am useing "ok nabu" for device control and a second assistant all together with ok jarvis for the kobold conversation agent.
-  Repeat as many time as desired for different Kobold agents. one anonymous, one with your API Key, one with your significant others api key, you do you. 
+  Repeat as many time as desired for different Kobold agents. one anonymous, one with your API Key, one with your significant others api key, you do you. <br>
 
 Use the Conversation agent from the dashboard:
 Click the conversation icon in the upper right corner. 
